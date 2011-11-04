@@ -45,6 +45,7 @@ information, in the standard classes and some others.).
 %{_texmfdistdir}/tex/latex/rectopma/rectopma.sty
 %doc %{_texmfdistdir}/doc/latex/rectopma/TestTitle.pdf
 %doc %{_texmfdistdir}/doc/latex/rectopma/TestTitle.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +56,5 @@ information, in the standard classes and some others.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
