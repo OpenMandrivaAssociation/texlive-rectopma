@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-rectopma
 Version:	20101002
-Release:	4
+Release:	5
 Summary:	Recycle top matter
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/rectopma
