@@ -3,7 +3,7 @@ Version:	19980
 Release:	2
 Summary:	Recycle top matter
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/rectopma
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/rectopma
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/rectopma.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/rectopma.doc.r%{version}.tar.xz
